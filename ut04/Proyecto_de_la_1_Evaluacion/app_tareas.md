@@ -1,7 +1,9 @@
+
+```python
 import datetime
 listaTareas = {}
 
-# Mis Funciones
+# Funciones
 def añadir_Tareas():
     parametroUno = input("Introduce un nombre a la tarea")
     if nombre in listaTareas:
@@ -51,7 +53,7 @@ def vencidas_Tareas():
         else:
             print("No hay tareas vencidas")
 
-# Menu
+#Menu
 while True:
     print("Gestor de tareas")
     print("---------------------------------")
@@ -79,3 +81,4 @@ while True:
         break
     else:
         print("Opcion no valida")
+```
