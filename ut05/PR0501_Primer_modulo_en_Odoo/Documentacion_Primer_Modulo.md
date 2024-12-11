@@ -6,8 +6,6 @@ Dentro de donde tenemos todos los repositorio de **"Docker"** vamos a la carpeta
 
 Al ejecutarlo en la carpeta **addons** se no screara la carpeta con el nombre de antes seguido de todos los archivos
 
-![Image](./Captura1.png)
-
 ## Paso 2 (MANIFEST)
 
 Ve al archivo **"__manifest__.py"**. Y cambiar el name, el summary "resumen" y la descripcion
