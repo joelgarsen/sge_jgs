@@ -1,4 +1,4 @@
-# **PR0601**
+# **PR0603**
 
 ## Paso 1 (Añadir creacion de directorio y archivos)
 Dentro de donde tenemos todos los repositorio de **"Docker"** vamos a la carpeta **addons** para abrir una terminal dentro de esta.
@@ -6,9 +6,4 @@ Dentro de donde tenemos todos los repositorio de **"Docker"** vamos a la carpeta
 
 ![Imagen](Captura1.png)
 
-## Paso 2 (MODELS)
-
-Ahora vamos al archivo **"models.py"**. Y añadimos los cambos con su respectivo tipo de dato (obviamente descomentando todo)
-
-![Imagen](Captura2.png)
-
+## Paso 2 (Modelo y manifest)
