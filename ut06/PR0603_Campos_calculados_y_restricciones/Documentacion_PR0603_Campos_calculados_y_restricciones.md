@@ -7,3 +7,14 @@ Dentro de donde tenemos todos los repositorio de **"Docker"** vamos a la carpeta
 ![Imagen](Captura1.png)
 
 ## Paso 2 (Modelo y manifest)
+
+Creamos el modelo junto con todas las restricciones de los campos
+![Imagen](2.png)
+
+## Paso 3 (Views)
+Escribimos los campos en el views
+![Imagen](4.png)
+
+## Paso 4 (Security)
+Indicamos los parametros para que reconozca al modulo
+![Imagen](3.png)

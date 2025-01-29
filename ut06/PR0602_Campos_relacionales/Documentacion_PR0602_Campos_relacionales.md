@@ -14,7 +14,7 @@ Ahora vamos al archivo **"models.py"**. Y añadimos los cambos con su respectivo
 
 ![Imagen](Captura2Socios.png)
 
-```
+`
 # -*- coding: utf-8 -*-
 
 from odoo import models, fields, api
@@ -25,13 +25,13 @@ class library_jgs(models.partner):
     _description = 'library_jgs.library_jgs'
 
     libroPrestado = fields.Many2many('library.book')
-```
+`
 
 **Libros**
 
 ![Imagen](Captura2Libros.png)
 
-```
+`
 # -*- coding: utf-8 -*-
 
 from odoo import models, fields, api
@@ -46,13 +46,13 @@ class library_jgs(models.book):
     genero = fields.Selection(['novela','drama','ciencia' 'ficcion', 'misterio', 'terror', 'historico'])
     socios = fields.Many2many('library.partner')
 
-```
+`
 
 **Autores**
 
 ![Imagen](Captura2Author.png)
 
-```
+`
 # -*- coding: utf-8 -*-
 
 from odoo import models, fields, api
@@ -65,7 +65,7 @@ class library_jgs(models.author):
     nombre = fields.Char()
     pais = fields.Many2one('res.country')
     libro = fields.One2many('librarby.book')
-```
+`
 
 ## Paso 3 (MANIFEST)
 
@@ -73,7 +73,7 @@ class library_jgs(models.author):
 
 ![Imagen](Captura3Manifest.png)
 
-```
+`
 # -*- coding: utf-8 -*-
 {
     'name': "library_jgs",
@@ -111,7 +111,7 @@ class library_jgs(models.author):
         'demo/demo.xml',
     ],
 }
-```
+`
 
 ## Paso 4 (VIEWS)
 
@@ -121,7 +121,7 @@ class library_jgs(models.author):
 
 ![Imagen](Captura4Autor.png)
 
-```
+`
 <odoo>
   <data>
     <!-- explicit list view definition -->
@@ -139,13 +139,13 @@ class library_jgs(models.author):
     </record>
   </data>
 </odoo>
-```
+`
 
 **Libros**
 
 ![Imagen](Captura4Libros.png)
 
-```
+`
 <odoo>
   <data>
     <!-- explicit list view definition -->
@@ -165,13 +165,13 @@ class library_jgs(models.author):
 
   </data>
 </odoo>
-```
+`
 
 **Socios**
 
 ![Imagen](Captura4Socios.png)
 
-```
+`
 <odoo>
   <data>
     <!-- explicit list view definition -->
@@ -188,4 +188,4 @@ class library_jgs(models.author):
 
   </data>
 </odoo>
-```
+`

@@ -6,10 +6,23 @@ Dentro de donde tenemos todos los repositorio de **"Docker"** vamos a la carpeta
 
 ![Image](./CapturaUno.png)
 
-## Paso 2 ()
+## Paso 2 (Crear modelos)
+Vamos a la carpeta de modelos y creamos dos archivos para luego declarar los nombres de los mismos en el 'init' de la misma carpeta
 
-## Paso 3 ()
+![Image](2.png)
 
-## Paso 4 ()
+## Paso 3 (Crear los views)
+En la carpeta views creamos un xml por cada modelo agregando los campos que hemos escrito antes, luego nos dirigimos al 'manifest' para poner la ruta de ambos
 
-## Paso 5 ()
+![Image](3.png)
+
+## Paso 4 (Security)
+Por ultimo vamos al unico archivo de la carpeta 'Security' para declarar ambos modelos
+
+![Image](4.png) 
+
+## Paso 5 (Comprobar su creación)
+
+Encendemos odoo y activamos el 'modo desarrollador'  de ahi nos dirigimos a la pestaña de 'aplicaciones' y buscamos el nombre de nuestro modelo
+
+![Image](5.png) 
